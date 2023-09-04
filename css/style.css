@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.encabezado{
+    text-align: center;
+    margin: 0 auto;   
+}
+
+body{
+    background-color: #920606;
+}
+
+img{
+    max-width: 30%;
+    min-width: 10%;
+}
+
+.footer{
+    text-align: center;
+}
+
+.main{
+    text-align: center;
+}
+
+.main p{
+    text-align: justify;
+}
+
+#video {
+    margin: 15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+}
+
+nav li{
+    display:inline-block;
+    width:150px;
+    height:30px;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #ffffff;
+    text-align:center;
+    color:#fff;
+    position:relative;
+}
+
+nav li:hover{
+    background-color:#fff;
+    color:#000;
+}
+          
+nav li>ul{
+    display:none;
+}
+
+nav li:hover>ul{
+    display:block;
+    position:absolute;
+    top:30px;
+    left:0px;
+}
+
+#contacto img{
+    float: right;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 300px;
+}
